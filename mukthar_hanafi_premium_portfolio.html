@@ -1,0 +1,246 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mukthar Hanafi | Web3 Marketing Expert</title>
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+      background-color: #0A0A0A;
+      color: #E8E8E8;
+      margin: 0;
+      padding: 0;
+      line-height: 1.7;
+      overflow-x: hidden;
+    }
+
+    /* Hero Section */
+    header {
+      background: linear-gradient(135deg, #00c6ff, #0072ff);
+      color: #fff;
+      text-align: center;
+      padding: 120px 20px;
+      position: relative;
+      overflow: hidden;
+    }
+
+    header h1 {
+      font-size: 4.5rem;
+      margin-bottom: 20px;
+      text-transform: uppercase;
+      letter-spacing: 4px;
+      animation: fadeIn 2s ease-out;
+    }
+
+    header p {
+      font-size: 1.6rem;
+      margin-bottom: 40px;
+      animation: fadeIn 3s ease-out;
+    }
+
+    .cta-button {
+      background-color: #66FCF1;
+      color: #0D0D0D;
+      padding: 14px 28px;
+      font-size: 1.5rem;
+      border: none;
+      border-radius: 50px;
+      cursor: pointer;
+      transition: background-color 0.3s, transform 0.2s;
+    }
+
+    .cta-button:hover {
+      background-color: #45a29e;
+      transform: scale(1.1);
+    }
+
+    /* About Section */
+    .section {
+      padding: 80px 20px;
+      max-width: 900px;
+      margin: auto;
+      text-align: center;
+    }
+
+    .section h2 {
+      font-size: 2.8rem;
+      color: #66fcf1;
+      margin-bottom: 30px;
+      font-weight: 600;
+      animation: slideIn 1s ease-out;
+    }
+
+    .section p {
+      font-size: 1.4rem;
+      color: #d1d1d1;
+      margin-bottom: 25px;
+      line-height: 1.6;
+    }
+
+    /* Skills & Projects */
+    .section ul {
+      list-style: none;
+      padding: 0;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 30px;
+      justify-items: center;
+    }
+
+    .section ul li {
+      background-color: #1e1e1e;
+      padding: 20px;
+      border-radius: 10px;
+      transition: transform 0.3s ease;
+    }
+
+    .section ul li:hover {
+      transform: scale(1.05);
+    }
+
+    .project {
+      background-color: #2a2a2a;
+      padding: 20px;
+      margin: 20px 0;
+      border-radius: 8px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    }
+
+    .project h3 {
+      font-size: 1.8rem;
+      color: #66fcf1;
+      margin-bottom: 10px;
+      font-weight: 600;
+    }
+
+    .project p {
+      font-size: 1.2rem;
+      color: #d1d1d1;
+    }
+
+    /* Footer */
+    footer {
+      background-color: #1e1e1e;
+      text-align: center;
+      padding: 40px;
+      color: #c5c6c7;
+    }
+
+    .contact a {
+      color: #66fcf1;
+      font-size: 1.4rem;
+      text-decoration: none;
+      transition: text-decoration 0.3s ease;
+    }
+
+    .contact a:hover {
+      text-decoration: underline;
+    }
+
+    /* Animations */
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+      }
+      to {
+        opacity: 1;
+      }
+    }
+
+    @keyframes slideIn {
+      from {
+        transform: translateY(-50px);
+        opacity: 0;
+      }
+      to {
+        transform: translateY(0);
+        opacity: 1;
+      }
+    }
+
+    /* Responsive Design */
+    @media (max-width: 768px) {
+      header h1 {
+        font-size: 2.5rem;
+      }
+
+      .section {
+        padding: 50px 15px;
+      }
+
+      .section ul {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Hero Section -->
+  <header>
+    <h1>Mukthar Hanafi</h1>
+    <p>Web3 Marketing Lead | Digital Innovator | Community Builder</p>
+    <button class="cta-button" onclick="window.location.href='mailto:hanafimuhktar@gmail.com'">Hire Me Now</button>
+  </header>
+
+  <!-- About Section -->
+  <div class="section">
+    <h2>About Me</h2>
+    <p>
+      As a Web3 Marketing Lead, I specialize in growing communities, driving adoption, and leveraging decentralized technology to unlock new possibilities for crypto projects. With an eye for data-driven strategies and creative storytelling, I help bring meaningful engagement and lasting value.
+    </p>
+    <p>
+      With extensive experience in organic growth, content marketing, and deep understanding of blockchain ecosystems, I am here to lead the way in Web3 marketing and community strategy.
+    </p>
+  </div>
+
+  <!-- Skills Section -->
+  <div class="section">
+    <h2>My Expertise</h2>
+    <ul>
+      <li>Twitter Growth & Campaign Strategy</li>
+      <li>Community Building (Telegram, Discord)</li>
+      <li>DeFi Marketing & Tokenomics</li>
+      <li>Content Creation & Viral Marketing</li>
+      <li>Market Analysis & Sentiment Tracking</li>
+      <li>Social Media Growth & Engagement</li>
+    </ul>
+  </div>
+
+  <!-- Featured Projects -->
+  <div class="section">
+    <h2>Featured Work</h2>
+
+    <div class="project">
+      <h3>RugCheck Telegram Bot</h3>
+      <p>
+        Developed a real-time bot that scans Telegram for token shills and provides detailed risk analysis using RugCheck API. The bot helps users make informed decisions about risky tokens before engaging in them.
+      </p>
+      <p><strong>Technologies Used:</strong> Python, Telegram API, RugCheck API</p>
+    </div>
+
+    <div class="project">
+      <h3>Viral Web3 Campaigns</h3>
+      <p>
+        Led several successful Web3 campaigns targeting crypto communities, combining influencer partnerships and organic engagement to drive token awareness and adoption.
+      </p>
+    </div>
+
+    <div class="project">
+      <h3>Web3 Community Growth Playbooks</h3>
+      <p>
+        Crafted detailed playbooks for growing and activating decentralized communities, focusing on user onboarding, retention strategies, and rewards programs for Telegram and Discord communities.
+      </p>
+    </div>
+  </div>
+
+  <!-- Contact Section -->
+  <footer>
+    <p class="contact">Interested in working together? Reach out to me at <a href="mailto:hanafimuhktar@gmail.com">hanafimuhktar@gmail.com</a></p>
+    <p>&copy; 2025 Mukthar Hanafi. Built for GFX Labs.</p>
+  </footer>
+
+</body>
+</html>
